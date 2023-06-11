@@ -22,7 +22,7 @@ buildGoModule rec {
 
   nativeBuildInputs = [ pkg-config go ];
   buildInputs = [ gtk3 xcur2png glib cairo ];
-
+  vendorSha256 = "sha256-XEgPeJ8zlaadl+yuAOlbzsBECs/c8cjBja+sZkTsg60=";
   meta = with lib; {
     description = "GTK3 settings editor adapted to work in the sway / wlroots environment";
     homepage = "https://github.com/nwg-piotr/nwg-look";
