@@ -32974,7 +32974,7 @@ with pkgs;
 
   nwg-launchers = callPackage ../applications/misc/nwg-launchers { };
 
-  nwg-look = callPackage ../applications/misc/nwg-look { };
+  nwg-look = callPackage ../applications/system/nwg-look { };
 
   nwg-menu = callPackage ../applications/misc/nwg-menu { };
 
